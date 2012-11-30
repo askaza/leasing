@@ -1,0 +1,1 @@
+<?$arTemplate = Array("NAME"=>"English", "DESCRIPTION"=>"english version");?>

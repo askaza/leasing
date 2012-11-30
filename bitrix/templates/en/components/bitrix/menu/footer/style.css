@@ -1,0 +1,80 @@
+div.menu-sitemap-tree
+{
+	font-size:100%;
+}
+
+div.menu-sitemap-tree ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+div.menu-sitemap-tree ul ul
+{
+	width: auto;
+}
+
+div.menu-sitemap-tree li
+{
+	padding:0;
+}
+
+div.menu-sitemap-tree li li
+{
+	padding:0;
+}
+
+div.menu-sitemap-tree li.close ul
+{
+	display: none;
+}
+
+div.menu-sitemap-tree div.item-text
+{
+	padding:0 0px 8px 10px;
+	
+}
+div.menu-sitemap-tree li.first div.item-text
+{
+	padding-left:0;
+}
+/*Icons*/
+div.folder, div.page, div.folder2
+{
+	background-repeat:no-repeat;
+	width:14px;
+	height:10px;
+	vertical-align:top;
+	float:left;
+	margin-left:5px;
+	margin-top:2px;
+}
+div.folder2	{cursor:pointer; cursor: hand;background-image:url(images/folder_close.gif);}
+div.folder 	{cursor:pointer; cursor: hand;background-image:url(images/folder_open.gif);}
+
+.float
+{
+	float:left;
+	width:145px; 
+	/*height:120px;*/
+	border-left: 1px solid #83aed2;
+}
+.float a
+{
+	color:#fff !important;
+	text-decoration:none;
+	font-weight:bold;
+}
+.float ul li a
+{
+	color:#91c5ef !important;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:11px;
+}
+.float ul
+{
+	margin:0; padding:0;
+	list-style:none;
+}

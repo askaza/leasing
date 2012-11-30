@@ -1,0 +1,78 @@
+div.leftmenu
+{
+	font-size:100%;
+}
+
+div.leftmenu ul
+{
+	list-style-type: none;
+	margin: 0; padding:0;
+}
+
+div.leftmenu ul ul
+{
+	width: auto;
+
+}
+
+div.leftmenu li
+{
+	padding:0;
+}
+
+div.leftmenu li li
+{
+	padding:0;
+}
+
+div.leftmenu li.close ul
+{
+	display: none;
+}
+
+div.leftmenu div.item
+{
+	position:relative;
+	height:30px;
+	background:url(images/leftmenu_bg.jpg);
+	padding-left:40px;
+	padding-right:70px;
+	line-height:30px;
+	overflow:hidden;
+}
+.subm
+{
+	padding-left:18px;
+	background:url(images/leftmenu_bg.jpg) bottom center repeat-x;
+}
+.subm div.item
+{
+	background:none !important;
+	height:auto !important;
+	padding-left:90px !important;
+}
+div.leftmenu div.item a
+{
+	font-size:13px;
+	text-decoration:none;
+}
+.subm div.item a
+{
+	font-size:12px;
+}
+/*Icons*/
+div.folder, div.page
+{
+	background-repeat:no-repeat;
+	width:17px;
+	height:17px;
+	vertical-align:top;
+}
+.item div.folder, .item div.page, .item div.folder2
+{
+	margin-top:11px;
+	margin-left:-18px;
+}
+div.folder{cursor:pointer; cursor: hand;background-image:url(images/folder_open.gif);}
+div.leftmenu li.close div.folder{background-image:url(images/folder_close.gif);}
+div.page{}

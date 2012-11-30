@@ -1,0 +1,45 @@
+ul.map-level-0 a {
+	font-weight: bold;
+	color:#fff;
+}
+
+ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
+	font-weight: normal;
+	color:#91c5ef;
+}
+
+.map-columns td {
+	vertical-align: top;
+}
+
+h2.map
+{
+	font-size:24px;
+	color:#fff;
+	font-weight:normal;
+}
+
+.map-level-0, .map-level-1, .map-level-2
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.map-level-0 li
+{
+	float:left;
+}
+.map-level-0 li a
+{
+	text-decoration:none;
+}
+.map-level-1 li
+{
+	float:none;
+}
+
+.map-columns ul li
+{
+	padding:5px 0;
+	width:125px;
+}

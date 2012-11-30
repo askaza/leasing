@@ -1,0 +1,132 @@
+div.leftmenu
+{
+	font-size:100%;
+}
+
+div.leftmenu ul
+{
+	list-style-type: none;
+	margin: 0; padding:0;
+	background:url(../../../../images/shade_inside.jpg) repeat-y top right;
+	width: 747px;
+	overflow: hidden;
+	width:249px;
+}
+
+div.leftmenu ul ul
+{
+	width: auto;
+}
+
+div.leftmenu li
+{
+	width:208px;
+	background:#ffffff url(images/leftmenu_bg.png) repeat-x bottom right;
+	padding:10px 20px;
+}
+div.leftmenu li ul {
+	background:none;
+}
+div.leftmenu li li
+{
+	background: none repeat scroll 0 center transparent;
+    color: #2E6BAB;
+    list-style: square outside none;
+    padding: 5px 0;
+}
+
+div.leftmenu li li a {
+	font-size:11px !important;
+	font-weight:normal;
+}
+
+div.leftmenu li.close ul
+{
+	display: none;
+}
+
+div.leftmenu div.item
+{
+
+}
+div.leftmenu div.item.sel
+{
+	
+}
+div.leftmenu div.item.sel a{color:#bebebe;}
+div.leftmenu div.item.inside
+{
+	background:#fff;/*url(images/inside_top.jpg) top right;*/
+	margin-right:0px;
+}
+.subm
+{
+	padding:4px 0 0 28px !important;
+	width:215px !important;
+}
+.subm div.item
+{
+	background:none !important;
+	height:auto !important;
+	padding-left:0!important;
+}
+div.leftmenu div.item a
+{
+	font-size:13px;
+	text-decoration:none;
+}
+.subm div.item a
+{
+	font-size:12px;
+}
+/*Icons*/
+div.folder, div.page
+{
+	background-repeat:no-repeat;
+	width:17px;
+	height:17px;
+	vertical-align:top;
+}
+.item div.folder, .item div.page, .item div.folder2
+{
+	margin-top:11px;
+	margin-left:-18px;
+}
+div.folder{cursor:pointer; cursor: hand;background-image:url(images/folder_open.gif);}
+div.leftmenu li.close div.folder{background-image:url(images/folder_close.gif);}
+div.page{}
+div.leftmenu li.close.clese
+{
+	border-right:none;
+}
+.csele .aro
+{
+	color:#fff;
+	background:url(images/3rdlevel_arrow.jpg) no-repeat right center;
+	/*margin-right:-16px;
+	//background:url(images/3rdlevel_arrow.jpg) no-repeat 268px center;
+	//margin-right:-16px;*/
+	position:absolute;
+	left:268px;
+	width:17px;
+	height:150px;
+	font-size:1px;
+	line-height:1px;
+	float:left;
+}
+.white
+{
+	float:left;
+	width:17px;
+	height:30px;
+	background:#fff;
+	border-left:1px solid #ececee;
+}
+.barrow
+{
+	/*float:left;*/
+	width:18px;
+	height:100%;
+	//height:auto;
+	background:url(images/3rdlevel_arrow.jpg) no-repeat left center;
+}

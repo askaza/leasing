@@ -1,0 +1,25 @@
+.catalog-price {
+	 color:red;
+}
+div.catalog-section table td {
+	padding-right:10px;
+	padding-top:10px;
+}
+#otzivi
+{
+	width:160px;
+	background:#e6e6e6 url(images/clients_bg.jpg) repeat-x;
+	padding:20px;
+	margin:20px;
+	margin-right:0;
+	margin-top:0;
+	float:right;
+}
+#otzivi td
+{
+	padding:2px;
+}
+#otzivi table
+{
+	margin-bottom:10px;
+}

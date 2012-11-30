@@ -1,0 +1,72 @@
+h2 a, a h2
+{
+	font-size:16px;
+	color:#3e3e40;
+	font-weight:normal;
+	text-transform:uppercase ;
+	margin-top:0px;
+	/*padding-bottom:5px;*/
+	//margin-bottom:5px;
+	//padding:0;
+	text-decoration:none;
+	color:#3E3E40;
+}
+
+body, html { padding: 0px; margin: 0px; min-height:100%; height:auto; height:100% !important; width:100%; font-size:12px; font-family: Arial, 'Times New Roman', Times, serif; color:#808080; background:#f6faff; } img { vertical-align:top; } a img{border:0px;} a:focus{outline:none;} table{font-size:100%;} /*Links*/ a:link {color: #2e6bab;} a:visited{color:#2e6bab;} a:active {color: #2e6bab;} a:hover{color:#2e6bab; text-decoration:none;} a.text { color:#808080; text-decoration:none; } a.text:hover { text-decoration:underline; } .errortext{color:red;} .notetext{color:green;} .starrequired{color:red;} span.req{color:#2e6bab;} #header .bg { background:url(images/header_bg.jpg) repeat-x; } #content { background:#ffffff; } #footer { height:392px; background:#2e6baa url(images/footer_bg.jpg) repeat-x; position:relative; bottom:0; padding:20px 30px; } #leftcol { /*padding:28px;*/ width:212px; } #leftcol.inside { background:url(images/shade_inside.jpg) 219px center repeat-y; } #rightcol { padding:28px 27px 28px 10px; } h1 { font-size:16px; color:#3e3e40; font-weight:normal; margin-top:0px; margin-bottom:10px; text-transform:uppercase ; padding-top:3px; } .icons {border-collapse:collapse;} .icons td { padding:2px 18px; //padding:0px 18px; line-height:12px; color:#ffffff; border-left:1px solid #79acd3; border-right:1px solid #79acd3; font-size:11px; } .icons td a {color:#ffffff; text-decoration:none;} .icons td td{padding:0;border:0;} .sinput { width:158px; height:14px; background:url(images/input_bg.jpg) 0px 1px repeat-x; color:#367fd2; font-size:10px; padding:0px 7px 3px; border:0; } .searchbutton { width:15px; height:14px; background:url(images/search.jpg) no-repeat; border:0; color:#74afec; } .submitfb { width:137px; height:25px; background:url(/images/sendbut.gif) no-repeat; border:0; color:#74afec; cursor:pointer; } .confirfb { width:137px; height:25px; background:url(/images/conf.jpg) no-repeat; border:0; color:#74afec; cursor:pointer; } .enterfb { width:137px; height:25px; background:url(/images/enter.jpg) no-repeat; border:0; color:#74afec; cursor:pointer; } 
+
+.regfb { 
+width:137px; 
+height:25px; 
+background:url(/images/reg.jpg) no-repeat; 
+border:0; 
+color:#74afec; 
+cursor:pointer; 
+padding-top:2px; 
+//padding-top:0;
+} 
+
+
+.resetfb { width:137px; height:25px; background:url(/images/resetbut.gif) no-repeat; border:0; color:#74afec; cursor:pointer; } .banb { /* position:absolute; bottom:-25px; right:-15px; float:right; */ z-index:100; } .dbanb { position:absolute; top:-58px; right:-14px; //right:18px; float:right; z-index:100; } span.blue { color:#2f6cab; } .incbg { height:115px; padding:5px 18px 0px; padding-top:0px\9; width:250px; background:url(images/digest_bg.jpg) repeat-x; background-position:top center; background-color:#DBDBDB; } .incbg2 { height:22px; //height:122px; padding:12px 18px 0 18px; //padding:5px 18px 0 18px; background-image:url(images/fb_bg.jpg); background-repeat:repeat-x; background-color:#FFFFFF; } .incbg3 { vertical-align:top; /*height:145px;*/ background-color:#DBDBDB; padding:0 20px 0 20px; background-image:url(images/fb_bg.jpg); background-repeat:repeat-x; } .incbg .title, .incbg2 .title, .incbg3 .title { margin:0; margin-bottom:6px; font-size:12px; } .incbg .text, .incbg2 .text { font-size:11px; margin-bottom:12px; } .stat .border { height:100%; border:1px solid #e8e8e8; margin-left:18px; width:192px; } .stat .spot { width:48px; //width:78px; height:24px; background:url(images/spot.jpg) no-repeat; line-height:24px; padding-left:30px; margin-left:-19px; margin-top:-1px; color:#fff; font-size:13px; font-weight:bold; z-index:100; position:absolute; } .stat .spot-text { padding: 8px 11px 10px; } table.kblock td { padding:0; margin:0; //padding:20px;} td.grayback { background:url(images/contacts_bg.jpg) repeat-x; background-position: bottom center; padding:10px; line-height:17px; height:auto; } .grayback { background:url(images/contacts_bg.jpg) repeat-x; background-position: bottom center; padding:10px; line-height:17px; height:auto;} 
+.grayback1 {background:url(/images/grad1.gif) repeat-x; background-position: top center; padding:10px 10px 0 10px; line-height:17px; height:auto; background-color:#E5E5E6;} .graybacktable { background:url(images/contacts_bg.jpg) repeat-x; background-color:#F7F7F9; background-position: bottom center; /* line-height:17px;*/ height:auto; /* padding: 10px 10px 1px 10px;*/ } #under-footer { height:38px; line-height:38px; } h2.footer { color:#fff; font-size:24px; //padding-bottom:10px;} .mainGallery #text { height:2px; width:375px; padding:13px; border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; } .mainGallery #text a { color:#808080; text-decoration:none; } .mainGallery #text a:hover {text-decoration:underline;color:#2E6BAB;} #thumb { /*border-bottom:1px solid #e8e8e8;*/ height:49px; background:url(images/tempbg.jpg) repeat-x; } #thumb img { background:url(images/clientsbg.jpg) repeat-x; cursor:pointer; /*border:1px solid #fff;*/ border-top:1px solid #f8f8fa; margin-right:1px; } #thumb a:hover img{background:url(images/clients-border-hover.gif) repeat-y;border-top:1px solid #e8e8e8;} #thumb #pic4 { border:1px solid #e8e8e8; border-bottom:1px solid #fff; background:none; height:46px; //height:47px; margin-bottom:-1px; //margin-bottom:-1px; } #thumb #pic1 { margin-left:1px; } /*TABS*/ /* root element for tabs */ ul.tabs { list-style:none; margin:0 !important; padding-left:1px; /* border-bottom:1px solid #666; */ height:32px; } /* single tab */ ul.tabs li { float:left; text-indent:0; padding:0; margin:0 !important; list-style-image:none !important; } /* link inside the tab. uses a background image */ ul.tabs a { background: url(/images/tabs.png) no-repeat 0 -33px; font-size:11px; display:block; height: 32px; line-height:32px; width: 49px; text-align:center; text-decoration:none; color:#333; padding:0px; margin:0px; position:relative; top:1px; } ul.tabs a:active { outline:none; } /* when mouse enters the tab move the background image */ ul.tabs a:hover { background-position: 0 0; } /* active tab uses a class name &quot;current&quot;. its highlight is also done by moving the background image. */ ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a { background-position: 0 0; cursor:default !important; color:#000 !important; } /* initially all panes are hidden */ .panes .pane { display:none; } .panes {border:1px solid #e8e8e8; padding:20px; margin-left:2px; width:545px; //width:550px; } /*-TABS*/ /*TABS1*/ /* root element for tabs */ ul.tabs1 { list-style:none; margin:0 !important; padding-left:1px; /* border-bottom:1px solid #666; */ height:32px; } /* single tab */ ul.tabs1 li { float:left; text-indent:0; padding:0; margin:0 !important; list-style-image:none !important; } /* link inside the tab. uses a background image */ ul.tabs1 a { background: url(/images/tabs1.png) no-repeat 0 -33px; font-size:11px; display:block; height: 32px; line-height:32px; width: 194px; text-align:center; text-decoration:none; color:#333; padding:0px; margin:0px; position:relative; top:1px; } ul.tabs1 a:active { outline:none; } /* when mouse enters the tab move the background image */ ul.tabs1 a:hover { background-position: 0 0; } /* active tab uses a class name &quot;current&quot;. its highlight is also done by moving the background image. */ ul.tabs1 a.current, ul.tabs1 a.current:hover, ul.tabs1 li.current a { background-position: 0 0; cursor:default !important; color:#000 !important; } /* initially all panes are hidden */ .panes1 .pane { display:none; } .panes1 { border:1px solid #e8e8e8; padding:26px 35px 10px 30px; margin-left:2px; width:514px; //width:509px; } /*-TABS1*/ 
+
+/*TABS3*/ 
+/* root element for tabs */ 
+ul.tabs3 { list-style:none; margin:0 !important; padding-left:1px; /* border-bottom:1px solid #666; */ height:32px; } 
+
+/* single tab */ 
+ul.tabs3 li { float:left; text-indent:0; padding:0; margin:0 !important; list-style-image:none !important; } 
+
+/* link inside the tab. uses a background image */ 
+ul.tabs3 a { background: url(/images/tabs3.png) no-repeat 0 -33px; font-size:11px; display:block; height: 32px; line-height:32px; width: 97px; text-align:center; text-decoration:none; color:#333; padding:0px; margin:0px; position:relative; top:1px; } 
+
+ul.tabs3 a:active { outline:none; } 
+/* when mouse enters the tab move the background image */ 
+ul.tabs3 a:hover { background-position: 0 0; } 
+/* active tab uses a class name &quot;current&quot;. its highlight is also done by moving the background image. */ 
+ul.tabs3 a.current, ul.tabs1 a.current:hover, ul.tabs1 li.current a { background-position: 0 0; cursor:default !important; color:#000 !important; } 
+/* initially all panes are hidden */ 
+.panes3 .pane { display:none; } 
+.panes3 { border:1px solid #e8e8e8; padding:26px 35px 10px 30px; margin-left:2px; width:514px; //width:509px; } 
+/*-TABS3*/
+
+.inputtext {border:0; height:22px;} .inputselect {border:0; height:22px; vertical-align:middle;} .inputtextarea {border:0; overflow: auto; width:286px; height:260px;}
+.facts{width:197px;border:1px solid #e8e8e8; padding:0;} 
+
+.facts h3 {padding-left:11px; padding-top:13px; margin:0; font-size:16px; font-weight:normal; font-family:arial; } 
+
+.facts div {padding:0 20px;} 
+
+.facts .plashka {padding:0; background-image: url("/images/plaha.png"); 
+background-repeat:no-repeat; 
+width:55px; 
+height:23px; 
+vertical-align:middle; 
+text-align:center; 
+font-size:13px; 
+color:#FFF; 
+padding-top:4px; 
+margin:9px 0 2px 0;}
+
+.bx-auth-table td {padding-top:5px;padding-right:5px;}
+
+.incbg4 { height:115px; padding:0 16px 0 14px;  background:url(images/digest_bg.jpg) repeat-x; background-position:top center; background-color:#DBDBDB; }
