@@ -1,0 +1,43 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+php_value magic_quotes_gpc off
+
+<IfModule mod_php5.c>
+  php_flag allow_call_time_pass_reference 1
+  php_flag session.use_trans_sid off
+  #php_value display_errors 1
+
+  #php_value mbstring.func_overload 2
+  #php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+  RewriteCond %{HTTP_HOST} ^1c-leasing.ru
+  RewriteRule ^(.*)$ http://www.1c-leasing.ru/$1 [R=301,L] 
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+</IfModule>
+
+redirect 301 /leasing_prof.html http://www.1c-leasing.ru/solutions/homnet7/
+redirect 301 /leasing80.html http://www.1c-leasing.ru/solutions/homnet8/
+redirect 301 /leasing-msfo.html http://www.1c-leasing.ru/solutions/IFRS/
+redirect 301 /public/leasingrevu_108.html http://www.1c-leasing.ru/press/public/167/
+redirect 301 /public/leasingrevu_307.html http://www.1c-leasing.ru/press/public/171/
+redirect 301 /public/leasingrevu_308.html http://www.1c-leasing.ru/press/public/164/
+

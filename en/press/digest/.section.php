@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Digest";
+$arDirProperties = Array(
+
+);
+?>

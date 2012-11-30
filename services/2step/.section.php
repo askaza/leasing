@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Развитие";
+$arDirProperties = Array(
+
+);
+?>

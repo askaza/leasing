@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Внедрение", 
+		"/services/1step/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Развитие", 
+		"/services/2step/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сопровождение", 
+		"/services/3step/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Консалтинг", 
+		"/services/5step/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

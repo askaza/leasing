@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"News", 
+		"/en/press/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Publications", 
+		"/en/press/public/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Marketing Materials", 
+		"/en/press/marketing/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Digest", 
+		"/en/press/digest/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"FAQ", 
+		"/en/press/faq/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

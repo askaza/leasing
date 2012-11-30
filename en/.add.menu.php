@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Language Selector", 
+		"/en/add1/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Authorization", 
+		"/en/add2/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Feedback", 
+		"/en/add3/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"More", 
+		"/en/add4/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

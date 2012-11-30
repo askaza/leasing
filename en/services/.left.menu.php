@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Implementation", 
+		"/en/services/1step/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Development", 
+		"/en/services/2step/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Maintenance", 
+		"/en/services/3step/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Consulting", 
+		"/en/services/5step/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
