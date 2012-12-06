@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<div style="width:249px">
-<div class="news-list" style="pa dding-left:12px; padd ing-right:15px; margin:0 25px;">
+<div class="aside-box">
+<div class="news-list">
 <h2><a href="/press/news/" style="color:#3E3E40;">Новости</a></h2>
 <div class="maindiv">
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
@@ -50,10 +50,11 @@
 
 </div>
 </div>
-<?if($dir=='/'){?>
-<div style="height:6px;">&nbsp;</div>
-<a href="/subscribe/"><img src="/images/banner_subscr.jpg" alt="" title=""></a>
-<?}else{?><div style="height:5px;">&nbsp;</div>
-<a href="/subscribe/"><img src="/images/banner_subscr_inside.jpg" alt="" title=""></a>
+<div class="banner banner_subscr">
+<a class="banner-image" href="/subscribe/"><img class="banner-img" src="/images/banner_subscr.jpg" title="Leasing Digest" alt="Leasing Digest" /></a>
+<span class="banner-content">
+	<a href="/subscribe/" class="btn btn_banner">подписка на новости</a>
+</span>
+</div>
 <?}?>
-<div style="height:22px;">&nbsp;</div>
+
